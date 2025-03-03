@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="800px" height="600px" viewBox="0 0 800 600" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Music Connection</title>
+    <defs>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#FFFFFF" stop-opacity="0.2" offset="0%"></stop>
+            <stop stop-color="#FFFFFF" stop-opacity="0.1" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <!-- Background Circle -->
+        <circle fill="url(#linearGradient-1)" cx="400" cy="300" r="250"></circle>
+        
+        <!-- Music Notes -->
+        <g transform="translate(200, 150)" fill="#FFFFFF">
+            <!-- Note 1 -->
+            <path d="M80,100 C80,89 88,80 100,80 C112,80 120,89 120,100 C120,111 112,120 100,120 C88,120 80,111 80,100 Z" fill-opacity="0.8"></path>
+            <rect x="115" y="30" width="5" height="70" rx="2" fill-opacity="0.8"></rect>
+            
+            <!-- Note 2 -->
+            <path d="M140,150 C140,139 148,130 160,130 C172,130 180,139 180,150 C180,161 172,170 160,170 C148,170 140,161 140,150 Z" fill-opacity="0.8"></path>
+            <rect x="175" y="80" width="5" height="70" rx="2" fill-opacity="0.8"></rect>
+            
+            <!-- Note 3 -->
+            <path d="M20,180 C20,169 28,160 40,160 C52,160 60,169 60,180 C60,191 52,200 40,200 C28,200 20,191 20,180 Z" fill-opacity="0.8"></path>
+            <rect x="55" y="110" width="5" height="70" rx="2" fill-opacity="0.8"></rect>
+        </g>
+        
+        <!-- Person 1 -->
+        <g transform="translate(150, 300)">
+            <!-- Head -->
+            <circle fill="#FFFFFF" cx="50" cy="50" r="40"></circle>
+            <!-- Headphones -->
+            <path d="M20,50 C20,30 35,10 50,10 C65,10 80,30 80,50" stroke="#FFFFFF" stroke-width="5" fill="none"></path>
+            <rect fill="#FFFFFF" x="10" y="45" width="10" height="30" rx="5"></rect>
+            <rect fill="#FFFFFF" x="80" y="45" width="10" height="30" rx="5"></rect>
+        </g>
+        
+        <!-- Person 2 -->
+        <g transform="translate(550, 300)">
+            <!-- Head -->
+            <circle fill="#FFFFFF" cx="50" cy="50" r="40"></circle>
+            <!-- Headphones -->
+            <path d="M20,50 C20,30 35,10 50,10 C65,10 80,30 80,50" stroke="#FFFFFF" stroke-width="5" fill="none"></path>
+            <rect fill="#FFFFFF" x="10" y="45" width="10" height="30" rx="5"></rect>
+            <rect fill="#FFFFFF" x="80" y="45" width="10" height="30" rx="5"></rect>
+        </g>
+        
+        <!-- Connection Line -->
+        <path d="M250,350 C350,250 450,450 550,350" stroke="#FFFFFF" stroke-width="3" stroke-dasharray="10,10"></path>
+        
+        <!-- Heart -->
+        <path d="M400,380 C420,350 450,350 450,380 C450,410 400,430 400,430 C400,430 350,410 350,380 C350,350 380,350 400,380 Z" fill="#FF6B6B"></path>
+        
+        <!-- Music Waves -->
+        <path d="M300,320 C320,310 320,330 340,320 C360,310 360,330 380,320" stroke="#FFFFFF" stroke-width="2" fill="none"></path>
+        <path d="M420,320 C440,310 440,330 460,320 C480,310 480,330 500,320" stroke="#FFFFFF" stroke-width="2" fill="none"></path>
+    </g>
+</svg>
